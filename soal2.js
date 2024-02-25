@@ -9,7 +9,7 @@ const PijarFood = (harga, voucher, jarak, pajak) => {
 
   //Untuk mendapatkan biaya antar
   let tarif = 5000
-  const tambahanTarif = (jarak - 2)*3000
+  const tambahanTarif = Math.max(0, (jarak - 2)*3000)
   tarif += tambahanTarif
 
   //untuk mendapatkan berapa biaya pajak
@@ -30,4 +30,4 @@ const PijarFood = (harga, voucher, jarak, pajak) => {
   `)
 }
 
-PijarFood(75000, "PIJARFOOD5", 5, true)
+PijarFood(75000, "PIJARFOOD5", 1, true)
