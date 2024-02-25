@@ -1,0 +1,14 @@
+{
+  "name": "codeimplementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "soal1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "soal1": "node soal1.js",
+    "soal2": "node soal2.js",
+    "soal3": "node soal3.js"
+  },
+  "author": "ricky",
+  "license": "ISC"
+}
